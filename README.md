@@ -3,7 +3,7 @@
 Retrained the model using  [Flickr](http://hockenmaier.cs.illinois.edu/DenotationGraph/) 30k image dataset which contains 158873 image caption.</br> 
 Edited the `generate` function  to redirect the output to a file (optional). Pass `return_as_list=True` to the `generate` function to get the output as list (preferred).</br>
 
-Requirements: [textgenrnn](https://github.com/minimaxir/textgenrnn)</br>
+Requirements: [textgenrnn](https://github.com/minimaxir/textgenrnn) that uses Python3 and run on top on [Tensorflow](https://www.tensorflow.org/)
 
 Attached:  Flickr 30k captions `In.txt` and the trained model `textgenrnn_weights.hdf5`</br></br>
 Examples:</br>
